@@ -27,7 +27,7 @@ A simple, cross-platform backup utility that
 ## Screenshots
 | GUI – ready | GUI – success |
 |-------------|---------------|
-| ![Source / destination picker](docs/img/gui_idle.png) | ![Backup finished](docs/img/gui_done.png) |
+| ![Source / destination picker](/file_backup_logger/docs/img/gui_idle.png) | ![Backup finished](/file_backup_logger/docs/img/gui_done.png) |
 
 
 ---
