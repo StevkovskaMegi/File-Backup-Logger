@@ -47,8 +47,9 @@ pip install -r requirements.txt
 ---
 
 ## CLI usage
+```bash
 python main.py
-
+```
 You’ll be prompted for
 source – the folder to back up
 destination – where to store backups
@@ -58,9 +59,9 @@ version tag – free-form text (e.g. v2.3.1); leave blank to skip
 ---
 
 ## GUI usage
-
+```bash
 python -m gui.app
-
+```
 Browse… to pick source & destination
 Tick Compress to ZIP if desired
 Click Start Backup – progress runs on a background thread so the UI stays responsive.
