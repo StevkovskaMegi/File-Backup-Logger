@@ -19,8 +19,6 @@ A simple, cross-platform backup utility that
 5. [Configuration file](#configuration-file)
 6. [Log file](#log-file)
 7. [Project layout](#project-layout)
-8. [Testing](#testing)
-9. [Road-map](#road-map)
 
 ---
 
@@ -44,6 +42,7 @@ source .venv/bin/activate
 
 # install dev requirements (only pytest)
 pip install -r requirements.txt
+``` 
 
 ---
 
