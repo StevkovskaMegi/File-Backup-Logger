@@ -70,18 +70,22 @@ Click Start Backup – progress runs on a background thread so the UI stays resp
 
 ## Configuration file
 config/default.json
+```bash
 {
   "source": "/last/used/source",
   "destination": "/last/used/destination",
   "compress": false
 }
+```
 
 ---
 
 ## Log file
 All operations are appended to logs/backup.log, e.g.
+```bash
 2025-07-14 00:55:02 | INFO | Creating ZIP archive → /backups/myproject_backup_2025-07-14_00-55-02.zip
 2025-07-14 00:55:05 | INFO | Backup summary | time=2025-07-14 00:55:05 | src=/Users/me/myproject | dest=/backups/myproject_backup_2025-07-14_00-55-02.zip | files=128 | duration=2.73s
+```
 
 ---
 
