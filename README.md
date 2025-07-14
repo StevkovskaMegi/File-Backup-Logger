@@ -90,14 +90,16 @@ All operations are appended to logs/backup.log, e.g.
 ---
 
 ## Project layout
+```text
 file_backup_logger/
 ├── backup/            ← core engine (BackupManager)
 │   └── manager.py
 ├── gui/               ← Tkinter front-end
 │   └── app.py
 ├── logs/              ← backup.log + generated backups
+├── tests/             ← pytest smoke test
 ├── main.py            ← CLI entry-point
 ├── requirements.txt   ← dev-only deps (pytest)
 └── README.md
 config/            ← default.json (saved prefs)
-
+│   └── default.json
